@@ -1,0 +1,23 @@
+.navlink:hover{
+  background-image: linear-gradient(30deg, #d15400, #c79800);
+  color: #cfcfcf;
+}
+
+.navlink.current:hover{
+  background-image: linear-gradient(30deg, #a54200, #947100);
+  color: #bebebe;
+}
+
+#main{
+  background-image: linear-gradient(330deg, #cab4a5, #c5ba9a);
+  background-color: linear-gradient(30deg, #20202090, #40404090);
+  background-attachment: fixed;
+}
+
+a{
+  color: #d15400;
+}
+
+#main.heading{
+  color: #d69057;
+}

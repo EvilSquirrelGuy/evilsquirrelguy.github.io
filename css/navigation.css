@@ -1,0 +1,29 @@
+#navbar{
+  margin-top: 112px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background-image: linear-gradient(to top right, #303030, #404040);
+  overflow: hidden;
+  animation: all 0.2s ease;
+}
+
+.navlink{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 13.5px 20px 13.5px 20px;
+  color: #aaa;
+  cursor: pointer;
+  animation: all 0.2s ease;
+}
+
+.navlink.current{
+  cursor: not-allowed;
+}
+
+.navlink:hover{
+  animation: all 0.2s ease;
+}
